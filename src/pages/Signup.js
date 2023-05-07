@@ -9,7 +9,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://packing-movers.vercel.app/api/signup', {
+      const response = await axios.post('http://packing-movers.vercel.app/signup', {
         username,
         password,
       });

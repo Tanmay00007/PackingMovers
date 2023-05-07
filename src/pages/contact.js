@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     setStatus("Sending...");
     const { subject, email, message } = values;
-    let response = await fetch("http://packing-movers.vercel.app/api/contact", {
+    let response = await fetch("http://packing-movers.vercel.app/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",

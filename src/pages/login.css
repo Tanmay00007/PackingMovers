@@ -1,0 +1,18 @@
+
+.b1{
+    margin-left: 530px;
+    position: relative;
+   top: -200px;
+   height: 80px;
+}
+
+.b2{
+    margin-left: 430px;
+    position: relative;
+   top: -200px;
+   height: 80px;
+}
+
+.button1{
+    background-color: blue;
+}

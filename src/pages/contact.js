@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { useState } from 'react';
+import {toast} from 'react-toastify'
 
 const initialState = {
   email:"",
@@ -21,7 +22,7 @@ const Contact = () => {
     e.preventDefault();
     setStatus("Sending...");
     const { subject, email, message } = values;
-    let response = await fetch("https://localhost:3001/api/contact", {
+    let response = await fetch("http://localhost:3001/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",

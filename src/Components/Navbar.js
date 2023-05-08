@@ -36,7 +36,7 @@ const NavBar = () => {
           <ul className='flex gap-12 pb-2 '>
                 <Link to='/'  className='cursor-pointer font-semibold text-blue-450 hover:text-blue-600 active:text-violet:400'>Home</Link>
                 <Link to='/services'  className='cursor-pointer font-semibold text-blue-450 hover:text-blue-600 active:text-violet:400'>Services</Link>
-                <Link to='/About Us' className='cursor-pointer font-semibold text-blue-450 hover:text-blue-600 active:text-violet:400'>About Us</Link>
+                <Link to='/form' className='cursor-pointer font-semibold text-blue-450 hover:text-blue-600 active:text-violet:400'>Book Now</Link>
                 <Link to='/contact' className='cursor-pointer font-semibold text-blue-450 hover:text-blue-600 active:text-violet:400'>Contact</Link>
                 <Link className='cursor-pointer font-semibold text-blue-450 hover:text-blue-600 active:text-violet:400' onClick={() => dispatch(setLogout())}>Logout</Link>
           </ul>

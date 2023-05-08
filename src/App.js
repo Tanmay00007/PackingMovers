@@ -9,6 +9,13 @@ import Signup from "./pages/Signup"
 import Services from "./pages/Services"
 import { useSelector } from "react-redux";
 import Contact from './pages/contact'
+import {
+  Input,
+  Ripple,
+  initTE,
+} from "tw-elements";
+
+initTE({ Input, Ripple });
 
 function App() {
   const isAuth =Boolean(useSelector((state)=>state.token));

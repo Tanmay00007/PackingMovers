@@ -13,7 +13,7 @@ const Services = () => {
             const { image, name, text ,id} = item;
             return (
                 <div key={id} className=" bg-white border border-black-500/100 rounded-lg shadow dark:bg-gray-800 dark:border-black-700 ">
-                    <img className="rounded-t-lg object-cover h-84 w-full" alt={name} src={image} />
+                    <img className="rounded-t-lg object-cover h-96 w-full" alt={name} src={image} />
                     <div className="p-5">
                         <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h3>
                         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{text}</p>
